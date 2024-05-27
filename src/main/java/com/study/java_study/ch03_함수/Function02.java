@@ -14,7 +14,14 @@ public class Function02 {
         System.out.println("num2 : " + num2);
     }
 
+    // 매개변수 o, 리턴 o 는 함수
     String 빙수만들기(String 재료, int count) {
         return 재료 + "빙수 : " + count + "개"; // ""인 이유는 String 을 썼기 때문
+    }
+
+    // 매개변수 x, 리턴 o 는 함수
+
+    String getData(){
+        return "데이터";
     }
 }

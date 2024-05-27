@@ -11,7 +11,7 @@ public class Function03 {
         System.out.println();
     }
 
-    void fx02(Student student) { // 학생 매개변수에 학생의 주소만 넣어주면됨
+    void fx02(Student student) { // 학생 매개변수에 학생의 주소만 넣어주면됨 / student(변수명) 하나로만 받게함
         System.out.println("fx02 함수 호출");
         System.out.println(student.studentCode);
         System.out.println(student.name);

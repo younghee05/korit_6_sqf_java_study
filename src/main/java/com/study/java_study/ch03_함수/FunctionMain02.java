@@ -12,7 +12,5 @@ public class FunctionMain02 {
         String 빙수 = fx.빙수만들기("초코", 5);
         System.out.println(빙수); //빙수 = 변수명
 
-
-
     }
 }

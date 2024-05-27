@@ -14,6 +14,13 @@ public class FunctionMain03 {
 
         fx.fx02(student);
 
+        Student ab = new Student(); // 자료형 Student이면 변수명은 아무것나 설정해도 상관이 없다
+        ab.name = "김영희";
+        ab.phone = "01021546854";
+        ab.studentCode = 2345;
+        ab.age = 20;
+
+        fx.fx02(ab);
 
 
     }

@@ -1,4 +1,4 @@
-package com.study.java_study.ch10_추상화;
+package com.study.java_study.ch10_추상화01;
 
 public class Dog extends Animal { // 상속 / 기존에 있던 자료형을 확장(추가)하여 새 자료형을 만드는 것
     private String breed; // 품종

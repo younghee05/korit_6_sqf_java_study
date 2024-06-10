@@ -1,2 +1,5 @@
-package com.study.java_study.mytest.class02;public class Student {
+package com.study.java_study.mytest.class02;
+
+public class Student {
+
 }

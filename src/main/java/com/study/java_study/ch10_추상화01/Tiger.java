@@ -1,4 +1,4 @@
-package com.study.java_study.ch10_추상화;
+package com.study.java_study.ch10_추상화01;
 
 public class Tiger extends Animal { // 원래는 Animal자료형에 Tiger자료형이 더해진거
     private int power; // 힘

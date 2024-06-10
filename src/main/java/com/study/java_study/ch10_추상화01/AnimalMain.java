@@ -1,4 +1,4 @@
-package com.study.java_study.ch10_추상화;
+package com.study.java_study.ch10_추상화01;
 
 /*
 Animal[] animals = new Animal[3];
@@ -42,7 +42,7 @@ public class AnimalMain {
         }
 
         for(Animal animal : animals) {
-            if(animal.getClass() == Tiger.class) {
+            if(animal.getClass() == Tiger.class) { // animal클래스와 Tiger클래스가 같으면 다운 캐스팅 하도록 설정함 (= instanceOf 대처용)
                 Tiger t = (Tiger) animal; // animal를 Tiger로 다운캐스팅
                 t.hunt(); // hunt를 출력
             } else if (animal.getClass() == Dog.class) {

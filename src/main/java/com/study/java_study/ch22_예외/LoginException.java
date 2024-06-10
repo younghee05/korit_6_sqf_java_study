@@ -13,6 +13,6 @@ public class LoginException extends RuntimeException {
     }
 
     public String getErrorMessage() {
-        return username + "사용자 이름이 올바르지 않거나 비밀번호가 일치하지 않습니다.";
+        return username + "사용자 이름이 올바르지 않거나 비밀번호가 일치하지 않습니다";
     }
 }

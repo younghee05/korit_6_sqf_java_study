@@ -1,5 +1,5 @@
 ## DB ##
-DBConfig.java
+/src/main/java/com/study/dvd/db/DBConfig.java
 
 target/
 !.mvn/wrapper/maven-wrapper.jar
